@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+*{
+    font-family: Poppins,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: normal;
+}
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-size: cover;
+}
+header{
+    background-color: rgba(0, 0, 0, 0);
+    height: 6em;
+}
+.header-logo{
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 60px;
+}
+.main-nav{
+    text-align: end;
+    margin-right: 55px;
+}
+.main-nav ul{
+    margin-top: -50px;
+
+}
+.main-nav li{
+    display: inline;
+    padding: 0% 5%;
+    margin-left: -8em;  
+}
+.main-nav ul li a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    padding: 6px;
+    
+    font-size: 1em;
+    margin-right: 20px;
+    border-radius: 10px;
+  
+}
+.main-nav ul li a:hover{
+    background-color: rgb(87, 189, 223);
+
+}
+.sidebar{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 100px;
+}
+.sidebar li{
+    padding-top: 7px;
+    margin-left: -40px;
+    list-style: square;
+}
+.main-form{
+    float: right;
+    color: black;
+    padding: 3% 5% 1% 1%;
+    background-color: burlywood;
+    border: 2px solid red;
+    text-align: center;
+    height: 15em;
+    width: 7em;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+form{
+    margin-top: 8px;
+    margin-right: 15px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    overflow:hidden;
+}
+.head{
+    background: rgb(0, 15, 29);
+    padding: -25px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: white;
+}
+.head p {
+    font-size: 12px;
+}
+input,textarea {
+    padding: 5px;
+    margin: 1px 1px -15px 15px;
+    border: 1x solid #ccc;
+    width: 80%;
+    outline: none;
+    border-radius: 10px;
+    
+}
+.para{
+    padding: -5%;
+    
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+textarea{
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+button{
+    background: rgb(0, 0, 0);
+    color: white;
+    border-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    transition: all 0.5s;
+    width: 95%;
+    align-self: center;
+  
+
+}
+button:hover {
+    background: rgb(0, 105, 204);
+  }
+.para p{
+    padding: 5px 10px 2px 20px;
+
+
+} 
+.container112{
+    max-width: 900px;
+    margin: 0% auto;
+}
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.container1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: auto;
+    background-color: black;
+    color: rgb(119, 119, 119);
+    text-align: center
+
+}
+.container1:hover{
+    background-color: rgb(145, 143, 143);
+}
+.container1 h1{
+    
+    color: white;
+    height: 20%;
+}
+.container1 span{
+    margin-top: 20%;
+    background-color: white;
+}
+
+.footer112 li{
+    size: 12px;
+}
+.footer112{
+    background-color: rgb(0, 0, 0);
+    padding: .25em;
+
+}
+.fot-container{
+    display: flex;
+    align-items: center;
+
+}
+.fot-container ul{
+    flex-grow: 1;
+    text-align: end;
+
+}
+
+.footer112-nav li{
+    display: inline;
+    padding: 0.5em;
+
+}
+.footer112-nav img{
+    width: 30px;
+    height: 30px;
+}
+.heading11{
+    color: whitesmoke;
+}
+.courses a{
+    color: red;
+}
+.container11{
+    background-image: url(assets/images/project-big-item-06.jpg);
+}
